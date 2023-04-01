@@ -179,6 +179,9 @@ a {
   background-size: cover;
   padding: 188px 0;
   text-align: center;
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -340,9 +343,7 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.worker li {
-  width: calc((100% - 90px) / 4);
-}
+
 
 .worker-title {
   font-weight: 500;
@@ -391,32 +392,35 @@ a {
 }
 
 .teem-soc-link:hover {
-  background-color: yellowgreen;
+  background-color: #31D0AA;
 
 }
 
+.teem-soc-link :focus {
+  color: red;
+}
+
+
 .customers-title {
-  position: absolute;
-  width: 183px;
-  height: 40px;
-  left: 629px;
-  top: 2568px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2E2F42;
+  margin-bottom: 72px;
 }
 
 
-.customers-item {
-
-  width: calc((100% - 120px) / 6);
+.customers-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
+
 
 .customers-link {
 
@@ -426,7 +430,8 @@ a {
   height: 88px;
   width: 168px;
   border-radius: 4px;
-  border: 1px solid var(--sections-customers-color);
+  border: 1px solid currentColor;
+  color: var(--sections-customers-color);
 
 }
 
@@ -438,7 +443,7 @@ a {
 
 .customers-link:is(:hover, :focus) {
 
-  fill: var(--background-color-body-btn);
+  color: var(--logo-color-);
 }
 
 
@@ -459,7 +464,6 @@ a {
 
 .footer-container {
   display: flex;
-  gap: 120px;
 }
 
 .footer-soc-list {
@@ -480,14 +484,39 @@ a {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #4d5ae5;
+  background-color: #4D5AE5;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.footer-soc-link :hover {
-  background-color: red;
+.footer-soc {
+  margin-left: 120px;
+}
+
+.footer-soc-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.footer-soc-icons {
+  fill: #f4f4fd;
+}
+
+
+.footer-soc-link:hover {
+  background-color: #31D0AA;
+
+}
+
+.footer-soc-link :focus {
+  color: red;
 }
 
 /* portfolio */
