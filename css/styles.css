@@ -391,8 +391,7 @@ a {
   fill: #f4f4fd;
 }
 
-.teem-soc-link:hover,
-:focus {
+.teem-soc-link:hover,.teem-soc-link:focus {
   background-color: #31D0AA;
 
 }
@@ -506,8 +505,7 @@ a {
 }
 
 
-.footer-soc-link:hover,
-:focus {
+.footer-soc-link:hover,.footer-soc-link:focus {
   background-color: #31D0AA;
 
 }
@@ -543,8 +541,7 @@ a {
 }
 
 
-.body-btn:hover,
-:focus {
+.body-btn:hover,.body-btn:focus {
   background-color: #404bbf;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -556,8 +553,7 @@ a {
   display: block;
 }
 
-.row-link :hover,
-:focus {
+.row-link :hover,.row-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
